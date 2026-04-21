@@ -45,4 +45,6 @@
 
 ![uv sync output](./images/uv-sync-output.png)
 
+## Do modeling for Bike Rentals Demand Forecasting inside notebooks/Modeling.ipynb
+
 
