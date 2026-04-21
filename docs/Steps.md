@@ -1,6 +1,6 @@
 # Bike Rentals Demand Forecasting: Step-by-Step Development Log
 
-## Installation of Libraries and Dependencies
+## Prerequisites & Installation of System-Level Dependencies
 
 ### Create a new repo 'bike-rentals-demand-forecasting' in GitHub (with only MIT License added)
 
@@ -35,13 +35,13 @@
 * Pull remote changes and merge => `git pull origin main --allow-unrelated-histories`
 * Push to main => `git push -u origin main`
 
-## Verify created Project Structure in VS Code, create Virtual Environment & install libraries
+## Verify created Project Structure in VS Code, create Virtual Environment & install Project Dependencies
 * Open VS Code & open folder `~/Work/GitHub/bike-rentals-demand-forecasting`
 * Edit pyproject.toml => `requires-python = ">=3.10"` to `requires-python = ">=3.12,<3.13"`
 * Create & activate virtual env
   * `uv venv .venv`
   * `source .venv/bin/activate`
-* Install libraries => `uv sync`
+* Install project dependencies => `uv sync`
 
 ![uv sync output](./images/uv-sync-output.png)
 
