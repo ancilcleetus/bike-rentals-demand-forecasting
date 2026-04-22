@@ -62,4 +62,5 @@
 
 ### Added 'Target Definition' under 'Baseline Model' in notebooks/Modeling.ipynb
 ### Added 'Fitting the model' under 'Baseline Model' in notebooks/Modeling.ipynb
+### Added 'Baseline Prediction' under 'Baseline Model' in notebooks/Modeling.ipynb
 
