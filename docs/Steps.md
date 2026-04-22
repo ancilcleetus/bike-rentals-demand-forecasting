@@ -38,7 +38,7 @@
 ## Verify created Project Structure in VS Code, create Virtual Environment & install Project Dependencies
 * Open VS Code & open folder `~/Work/GitHub/bike-rentals-demand-forecasting`
 * Edit pyproject.toml => `requires-python = ">=3.10"` to `requires-python = ">=3.12,<3.13"`
-* Create & activate virtual env
+* Inside VS Code Terminal, create & activate virtual env
   * `uv venv .venv`
   * `source .venv/bin/activate`
 * Install project dependencies => `uv sync`
@@ -46,5 +46,8 @@
 ![uv sync output](./images/uv-sync-output.png)
 
 ## Do modeling for Bike Rentals Demand Forecasting inside notebooks/Modeling.ipynb
+
+### Install missing packages for loading notebooks/Modeling.ipynb
+* `uv add numpy pandas scikit-learn catboost matplotlib`
 
 
