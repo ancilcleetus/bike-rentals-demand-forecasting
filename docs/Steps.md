@@ -50,4 +50,9 @@
 ### Install missing packages for loading notebooks/Modeling.ipynb
 * `uv add numpy pandas scikit-learn catboost matplotlib`
 
+### Added dataset inside data/01_raw folder => bike_data.parquet, bike_data_train.parquet, bike_data_inference.parquet
+
+### Install missing pyarrow package for loading parquet files with pandas
+* `uv add pyarrow`
+
 
