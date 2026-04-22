@@ -59,3 +59,7 @@
 ### Update 'Feature Description' section in notebooks/Modeling.ipynb
 * Loaded data/01_raw/bike_data_train.parquet
 * Dropped 'datetime' column
+
+### Added 'Target Definition' under 'Baseline Model' in notebooks/Modeling.ipynb
+
+
