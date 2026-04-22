@@ -35,7 +35,7 @@
 * Pull remote changes and merge => `git pull origin main --allow-unrelated-histories`
 * Push to main => `git push -u origin main`
 
-## Verify created Project Structure in VS Code, create Virtual Environment & install Project Dependencies
+## Start development using VS Code => Verify created Project Structure, create & activate Virtual Environment and install Project Dependencies
 * Open VS Code & open folder `~/Work/GitHub/bike-rentals-demand-forecasting`
 * Edit pyproject.toml => `requires-python = ">=3.10"` to `requires-python = ">=3.12,<3.13"`
 * Inside VS Code Terminal, create & activate virtual env
@@ -46,6 +46,7 @@
 ![uv sync output](./images/uv-sync-output.png)
 
 ## Do modeling for Bike Rentals Demand Forecasting inside notebooks/Modeling.ipynb
+* Inside VS Code Terminal => `jupyter notebook`
 
 ### Install missing packages for loading notebooks/Modeling.ipynb
 * `uv add numpy pandas scikit-learn catboost matplotlib`
@@ -55,4 +56,6 @@
 ### Install missing pyarrow package for loading parquet files with pandas
 * `uv add pyarrow`
 
-
+### Update 'Feature Description' section in notebooks/Modeling.ipynb
+* Loaded data/01_raw/bike_data_train.parquet
+* Dropped 'datetime' column
